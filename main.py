@@ -41,7 +41,7 @@ async def delete(user, message):
 
 @User.on_message(filters.regex("!start") & filters.private)
 async def start(user, message):
-    await message.reply("Hi, I'm alive!")
+    await message.reply("Hi {}, I'm a private bot of @AnnihilusOP to delete group messages after a specific time (40min)!")
 
 #==========================================================
 
