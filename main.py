@@ -42,7 +42,7 @@ async def delete(bot, message):
 
 @Bot.on_message(filters.command("start") & filters.private)
 async def start(bot, message):
-    await message.reply("Hi {}, I'm a private bot of @AnnihilusOP to delete group messages after a specific time (40min)")
+    await message.reply("<b>Hi BKL, I'm a private bot of @AnnihilusOP to delete group messages after a specific time (40min)</b>")
 
 #==========================================================
 
